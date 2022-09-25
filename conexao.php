@@ -1,4 +1,4 @@
-<?php // > Incluir a tag PHP
+<?php // > ESTABELECENDO CONEXÃO DO SITE COM O BANCO DE DADOS
 
 // > implementar variáveis principais
 
@@ -11,7 +11,7 @@ $bd = "site";
 
 $mysqli = new mysqli($host, $usuario, $senha, $bd); // > não pode trocar a ordem
 
-// > função que verifica erro na conexão
+// > função que verifica erro na conexão - NÃO OBRIGATÓRIO
 
 if ($mysqli->connect_errno)
     echo "Falha na conexão: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;

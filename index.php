@@ -1,3 +1,5 @@
+<?php include("teste/conexao.php"); // > conexão com o BD ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
